@@ -3,5 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-     font-family: "Poppins", sans-serif;
+     font-family: "Poppins", sans-seri
+}
+
+.container {
+    width: 80%;
+    margin-inline: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 90%;
+        
+    }
 }
