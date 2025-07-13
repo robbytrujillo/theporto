@@ -39,7 +39,7 @@
                 <div class="hero-box">
                     <img src="./assets/images/hero.webp" alt="Hero Image">
                     <h1>
-                        Hai, Nama saya <span>Robby</span> <br />
+                        Hai, Nama saya <span id="element">Robby</span> <br />
                         Web Developer & Designer
                     </h1>
                 </div>
@@ -50,5 +50,17 @@
 
     <!-- JS -->
     <script src="./dist/js/script.js"></script>
+
+    <!-- Typed.Js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! Typed Js -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Robby', 'Ilham', 'kusuma'],
+      typeSpeed: 150,
+      loop: true,
+    });
+  </script>
 </body>
 </html>
