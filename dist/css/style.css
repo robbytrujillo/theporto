@@ -59,4 +59,22 @@
 .hero .hero-box img {
     width: 300px;
 }
+
+.hero .hero-box h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1.3;
+}
+
+.hero .hero-box h1 span {
+    font-weight: bold;
+    color: #00cba9;
+}
+
+@media screen and (max-width: 768px) {
+    .hero .hero-box h1 {
+        font-size: 45px;
+    }
+}
 /* Hero End */
