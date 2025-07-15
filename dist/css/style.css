@@ -77,4 +77,10 @@
         font-size: 45px;
     }
 }
+
+@media screen and (max-width: 475px) {
+    .hero .hero-box h1 {
+        font-size: 40px;
+    }
+}
 /* Hero End */
