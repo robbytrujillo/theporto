@@ -111,4 +111,37 @@ header svg {
     align-items: center;
     gap: 50px;
 }
+
+.about .about-box .box:nth-child(1) img {
+    width: 300px;
+    padding : 10px 10px 0 10px;
+    background-color: #00d6b2;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-inline: auto;
+}
+
+.about .about-box .box:nth-child(1) p {
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.about .about-box .box:nth-child(1) p span {
+    font-weight: bold;
+}
+
+.about .about-box .box:nth-child(1) a {
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.about .about-box .box:nth-child(1) a:hover {
+    background-color: white;
+    color: #00cba9;
+    font-weight: bold;
+}
 /* About End */
