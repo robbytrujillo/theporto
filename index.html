@@ -1,70 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Porto.</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/icon/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/icon/favicon.ico"
+      type="image/x-icon"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./dist/css/style.css">
+    <link rel="stylesheet" href="./dist/css/style.css" />
 
     <!-- Font Poppins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <!-- Navbar Start -->
-        <div class="navbar">
-            <div class="container">
-                <div class="navbar-box">
-                    <ul class="menu">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#project">Project</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+      <!-- Navbar Start -->
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-box">
+            <ul class="menu">
+              <li><a href="#about">About</a></li>
+              <li><a href="#project">Project</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
-        <!-- Navbar End -->
+      </div>
+      <!-- Navbar End -->
 
-        <!-- Hero Start -->
-        <div class="hero">
-            <div class="container">
-                <div class="hero-box">
-                    <img src="./assets/images/hero.webp" alt="Hero Image">
-                    <h1>
-                        Hai, Nama saya <span id="element">Robby</span> <br />
-                        Web Developer & Designer
-                    </h1>
-                </div>
-            </div>
+      <!-- Hero Start -->
+      <div class="hero">
+        <div class="container">
+          <div class="hero-box">
+            <img src="./assets/images/hero.webp" alt="Hero Image" />
+            <h1>
+              Hai, Nama saya <span id="element">Robby</span> <br />
+              Web Developer & Designer
+            </h1>
+          </div>
         </div>
-        <!-- Hero End -->
+      </div>
+      <!-- Hero End -->
 
-        <!-- Waves Up Start -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path
-            fill="#00cba9"
-            fill-opacity="1"
-            d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,138.7C672,149,768,203,864,229.3C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            ></path>
-        </svg>
-        <!-- Waves Up End -->    
+      <!-- Waves Up Start -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#00cba9"
+          fill-opacity="1"
+          d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,138.7C672,149,768,203,864,229.3C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+      <!-- Waves Up End -->
     </header>
 
     <!-- About Start -->
     <div class="about">
-        <div class="container">
-            <div class="about-box">
-                
-            </div>
+      <div class="container">
+        <h1>About</h1>
+        <div class="about-box">
+          <div class="box">
+            <img src="./assets/images/tentang.png" alt="About Image" />
+          </div>
+          <div class="box">
+            <p>
+              Hai, Nama saya <span>Robby Ilhamkusuma</span>, saya mempunyai
+              ketertarikan pada bidang Pengembangan Web dan Desain. Kecintaan
+              saya pada teknologi dan desain dimulai sejak saya menemukan betapa
+              menyenangkannya mengubah ide menjadi tampilan visual yang bisa
+              digunakan dan dinikmati orang banyak. Selama beberapa tahun
+              terakhir, saya telah mengerjakan berbagai proyek, saya percaya
+              bahwa kombinasi antara kode yang bersih dan estetika desain yang
+              matang mampu memberikan pengalaman terbaik bagi pengguna.
+            </p>
+            <a href="#project">Go Project</a>
+          </div>
         </div>
+      </div>
     </div>
     <!-- About End -->
 
@@ -75,15 +97,15 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <!-- Setup and start animation! Typed Js -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Robby', 'Ilham', 'kusuma'],
-      typeSpeed: 150,
-      loop: true,
-      backSpeed: 100,
-      showCursor: false,
-      backDelay: 1000,
-    });
-  </script>
-</body>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Robby", "Ilham", "kusuma"],
+        typeSpeed: 150,
+        loop: true,
+        backSpeed: 100,
+        showCursor: false,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
 </html>

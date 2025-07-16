@@ -84,3 +84,17 @@
     }
 }
 /* Hero End */
+
+/* header Start */
+header svg {
+    margin-bottom: -10px;
+}
+/* header End*/
+
+/* About Start */
+.about {
+    background-color: #00cba9;
+    padding-block: 50px;
+    color: white;
+}
+/* About End */
