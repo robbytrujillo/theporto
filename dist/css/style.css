@@ -97,4 +97,18 @@ header svg {
     padding-block: 50px;
     color: white;
 }
+
+.about .container > h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.about .about-box .box:nth-child(1) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 150px;
+    align-items: center;
+    gap: 50px;
+}
 /* About End */
