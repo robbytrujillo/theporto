@@ -144,4 +144,14 @@ header svg {
     color: #00cba9;
     font-weight: bold;
 }
+
+@media and screen (maxwidth: 992px) {
+    .about .about-box .box:nth-child(1) {
+        grid-template-columns: 1fr;
+    }
+
+    .about .about-box .box:nth-child(1) div {
+        text-align: center;
+    }
+}
 /* About End */
