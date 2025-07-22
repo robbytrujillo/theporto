@@ -145,6 +145,33 @@ header svg {
     font-weight: bold;
 }
 
+.about .about-box .tools {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.about .about-box .tools .tools-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about .about-box .tools .tools-box:hover {
+    background-color: white;
+    color: black;
+}
+
+.about .about-box .tools-box img {
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+} 
+
 @media screen and (max-width: 992px) {
     .about .about-box .box:nth-child(1) {
         grid-template-columns: 1fr;
