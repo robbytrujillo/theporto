@@ -187,4 +187,17 @@ header svg {
 .project {
     padding-block: 50px;
 }
+
+.project .project-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.project .project-box .box {
+    padding: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
 /* Project End */
