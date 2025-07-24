@@ -234,4 +234,11 @@ header svg {
 .project .project-box .project-desc .project-btn a:hover {
     background-color: #00d6b2;
 } 
+
+@media screen and (max-width: 768px) {
+    .project .project-box {
+        grid-template-columns: 1fr;
+    }
+
+}
 /* Project End */
