@@ -214,6 +214,24 @@ header svg {
     line-height: 2;
     margin-top: 10px;
     margin-bottom: 20px;
-    color: black;
+    color: rgba(0, 0, 0, 0.6);
 }
+
+.project .project-box .project-desc .project-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.project .project-box .project-desc .project-btn a {
+    background-color: #00cba9;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+} 
+
+.project .project-box .project-desc .project-btn a:hover {
+    background-color: #00d6b2;
+} 
 /* Project End */
