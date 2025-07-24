@@ -242,3 +242,13 @@ header svg {
 
 }
 /* Project End */
+
+/* Contact Start */
+footer {
+    background-color: #00cba9;
+    margin-top: -10px;
+    padding: 20px;
+    display-flex: 
+    color: #fff;
+}
+/* Contact End */
