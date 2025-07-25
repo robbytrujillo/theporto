@@ -271,8 +271,35 @@ footer .social a {
 
 @media screen and (max-width: 768px) {
     footer {
-        flex-decoration: column-reverse;
+        flex-direction: column-reverse;
         gap: 20px;
     }
 }
 /* Contact End */
+
+/* Scroll To Top Start */
+.scroll-up {
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    background-color: #00d6b2;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.scroll-up a {
+    color: #fff;
+}
+
+@media screen and (max-width: 475px;) {
+    .scroll-up {
+        right: 20px;
+    }
+}
+/* Scroll To Top End */
