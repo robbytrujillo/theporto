@@ -31,6 +31,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body id="home">
     <!-- Scrool To Top Start -->
@@ -84,12 +87,12 @@
     <!-- About Start -->
     <div class="about" id="about">
       <div class="container">
-        <h1>About</h1>
+        <h1 data-aos="fade-up" data-aos-duration: "1000">About</h1>
         <div class="about-box">
           <div class="box">
-            <img src="./assets/images/tentang.png" alt="About Image" />
+            <img src="./assets/images/tentang.png" alt="About Image" data-aos="fade-right" data-aos-duration: "1000" />
             <div>
-              <p>
+              <p data-aos="fade-left" data-aos-duration: "2000">
                 Hai, Nama saya <span>Robby Ilhamkusuma</span>, saya mempunyai
                 ketertarikan pada bidang Pengembangan Web dan Desain. Kecintaan
                 saya pada teknologi dan desain dimulai sejak saya menemukan
@@ -330,6 +333,12 @@
         showCursor: false,
         backDelay: 1000,
       });
+    </script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
