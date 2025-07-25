@@ -280,7 +280,7 @@ footer .social a {
 /* Scroll To Top Start */
 .scroll-up {
     position: fixed;
-    bottom: 50px;
+    bottom: -50px;
     right: 40px;
     background-color: #00d6b2;
     width: 50px;
@@ -291,6 +291,7 @@ footer .social a {
     justify-content: center;
     font-size: 24px;
     cursor: pointer;
+    opacity: 0;
 }
 
 .scroll-up a {
