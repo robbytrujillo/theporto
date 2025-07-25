@@ -248,7 +248,31 @@ footer {
     background-color: #00cba9;
     margin-top: -10px;
     padding: 20px;
-    display-flex: 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #fff;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+footer .social {
+    display: flex;
+    gap: 20px;
+} 
+
+footer .social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        flex-decoration: column-reverse;
+        gap: 20px;
+    }
 }
 /* Contact End */
